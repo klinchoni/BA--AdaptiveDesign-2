@@ -42,19 +42,17 @@ header nav img{
     height: 40px;
 }
 
-
 .floating-menu {
     list-style-type: none; 
     padding: 0;
     margin: 0;
     overflow: hidden; 
-    background-color: #333; 
 }
 
 .floating-menu li {
     float: left; 
     margin-right: 6px; 
-    padding: 5px 6px; 
+    padding: 5px 6px;  
 }
 
 .floating-menu li a {
@@ -62,11 +60,6 @@ header nav img{
     color: white; 
     display: block; 
 }
-
-.floating-menu li a:hover {
-    background-color: #111; 
-}
-
 
 .floating-menu::after {
     content: "";
@@ -86,7 +79,7 @@ header nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e22061; 
+    color: #00fbd5; 
 }
 
 header nav ul li {    
